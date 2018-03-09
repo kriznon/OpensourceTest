@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "find_three_number_avg.h"
 
 int main() { 
  
