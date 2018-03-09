@@ -1,4 +1,4 @@
-#include "../src/unity.h"
+#include "Unity-master/src/unity.h"
 #include "../find_three_number_avg.h"
 #include <stdlib.h>
 
@@ -34,8 +34,8 @@ void test_check_pointers(void) {
 int main(void) {
 	UNITY_BEGIN();
 
-	RUN_TEST(test_AverageThreeBytes_should_AverageMidRangeValues);
-	RUN_TEST(test_AverageThreeBytes_should_AverageHighValues);
+	RUN_TEST(test_find_three_number_average_should_AverageMidRangeValues);
+	RUN_TEST(test_find_three_number_average_should_AverageHighValues);
 	RUN_TEST(test_to_fail);
 	//RUN_TEST(test_check_pointers);
 
