@@ -1,3 +1,7 @@
+/*
+ * find_three_number_avg.c
+ */
+
 #include <stdio.h>
 
 
